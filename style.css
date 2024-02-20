@@ -1,0 +1,148 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(218, 22%, 67%);
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+
+
+.container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 650px;
+    background-color: hsl(204, 43%, 93%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 1px #00000024;
+    overflow: hidden;
+
+    
+    
+}
+
+.hero {
+    
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    
+
+}
+
+.hero-title {
+    color:hsl(179, 62%, 43%);
+}
+
+.hero h2 {
+
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;;
+}
+
+
+
+.card-left {
+
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 30px;
+   
+    height: 250px;
+
+}
+.card-left p {
+    margin: 0px;
+}
+
+.card-price {
+ font-size: 2rem;
+ font-weight: 700;
+}
+
+.card-month {
+
+    font-size: 16px;
+    color: white;
+    opacity: 50%;
+}
+.card-right {
+
+    background-color: hsl(179, 62%, 45%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 30px;
+    
+
+
+}
+
+.sign-btn{
+
+    color:white;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+ 
+    cursor: pointer;
+    box-shadow: 0px 0px 14px 1px #00000024;
+
+}
+
+
+
+/*  
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
+*/
